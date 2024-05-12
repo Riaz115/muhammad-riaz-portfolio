@@ -1,0 +1,114 @@
+#home {
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#home .for-text {
+  border: 2px solid yellow;
+  max-width: 50%;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  background-color: var(--bg-color);
+  transition: all 0.8s ease-in-out;
+}
+#home .for-text:hover {
+  transform: scale(1.05);
+}
+#home .title {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+#home .for-btn {
+  padding: 0.5rem 1rem;
+  margin: 1rem 0.5rem;
+  font-size: 16px;
+}
+#home .img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+
+#home .img:hover {
+  transform: scale(1.1);
+}
+#home .img img {
+  height: 270px;
+  width: 270px;
+  border-radius: 100%;
+  border: 5px solid yellow;
+  object-fit: cover;
+  animation: ForImage 3s linear infinite;
+}
+
+@keyframes ForImage {
+  0% {
+    border-color: blue;
+    transform: translate(0, 0px);
+    box-shadow: 10px 10px 100px 50px blue;
+  }
+
+  25% {
+    border-color: rgb(239, 244, 11);
+    box-shadow: 10px 10px 100px 50px rgb(239, 244, 11);
+  }
+
+  50% {
+    border-color: rgb(12, 12, 199);
+    transform: translate(0, 10px);
+    box-shadow: 10px 10px 100px 50px rgb(12, 12, 199);
+  }
+
+  75% {
+    border-color: rgb(130, 217, 160);
+    box-shadow: 10px 10px 100px 50px rgb(130, 217, 160);
+  }
+
+  100% {
+    border-color: rgb(50, 55, 205);
+    transform: translate(0, -0px);
+    box-shadow: 10px 10px 100px 50px rgb(50, 55, 205);
+  }
+}
+
+@media (max-width: 992px) {
+  #home .for-text {
+    max-width: 80%;
+  }
+}
+@media (max-width: 767px) {
+  #home .for-text {
+    max-width: 90%;
+  }
+  #home .title {
+    font-size: 25px;
+  }
+  #home .for-btn {
+    padding: 0.5rem 0.5rem;
+    margin: 0.5rem;
+  }
+}
+@media (max-width: 330px) {
+  #home .for-text {
+    max-width: 100%;
+  }
+  #home .title {
+    font-size: 20px;
+  }
+  #home .for-btn {
+    padding: 0.5rem 0.5rem;
+    margin: 0;
+    font-size: 14px;
+  }
+  #home .for-text {
+    padding: 0.5rem;
+    margin: 0;
+  }
+}

@@ -1,0 +1,84 @@
+.navbar {
+  width: 100%;
+  z-index: 9999;
+  position: absolute;
+  height: auto;
+}
+.stickys {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  background-color: black;
+  transition: all 0.3s ease-in-out;
+  animation: forSticky 0.5s ease-in-out forwards;
+  box-shadow: 0 2px 3px rgba(96, 96, 96, 0.1);
+  opacity: 0;
+
+  .stickys .nav-link:hover {
+    color: yellow;
+  }
+}
+.portfolio {
+  color: white !important;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.navbar .nav-link {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  display: inline-flex;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.navbar-collapse {
+  color: red;
+}
+.navbar .nav-link:hover {
+  border-bottom: 3px solid yellow;
+  color: white;
+}
+
+.navbar .nav-link.active {
+  color: yellow !important;
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    background-color: black;
+  }
+  .navbar .navbar-toggler {
+    border: none;
+  }
+  .navbar .navbar-toggler:focus {
+    box-shadow: none;
+    outline: none;
+  }
+  .navbar-toggler-icon {
+    font-size: 20px;
+    font-weight: 800;
+    color: white !important;
+  }
+  .navbar .nav-link:hover {
+    color: red;
+    border-bottom: none;
+  }
+  .navbar .nav-link {
+    padding: 1rem;
+  }
+}
+
+@keyframes forSticky {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}

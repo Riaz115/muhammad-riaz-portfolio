@@ -1,0 +1,86 @@
+#skills {
+  padding: 2rem 0;
+  width: 100%;
+}
+
+#skills .skills-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+#skills .for-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  max-width: 70%;
+  margin: 2rem auto;
+}
+#skills .for-skills {
+  width: calc(40%);
+  padding: 20px;
+  background-color: black;
+  border: 3px solid yellow;
+  text-align: center;
+  margin: 20px 30px;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  transition: all 0.8s ease-in-out;
+}
+#skills .for-skills img {
+  width: 70px;
+  height: 70px;
+}
+#skills .for-skills:hover {
+  transform: scale(1.1);
+}
+#skills .for-skills .title {
+  font-size: 35px;
+}
+
+@media (max-width: 992px) {
+  #skills .for-items {
+    max-width: 90%;
+  }
+  #skills .for-skills {
+    width: calc(40%);
+    padding: 20px;
+    margin: 20px 30px;
+  }
+  #skills .for-skills .title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  #skills .for-items {
+    max-width: 100%;
+  }
+
+  #skills .skills-title {
+    font-size: 25px;
+  }
+  #skills .for-skills {
+    width: calc(40%);
+    padding: 20px;
+
+    margin: 20px;
+  }
+  #skills .for-skills .title {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  #skills .for-items {
+    max-width: 100%;
+  }
+  #skills .for-skills {
+    width: calc(90%);
+    padding: 20px;
+    margin: 1rem 0;
+  }
+  #skills .for-skills .title {
+    font-size: 16px;
+  }
+}

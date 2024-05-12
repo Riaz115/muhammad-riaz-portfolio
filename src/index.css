@@ -1,0 +1,18 @@
+:root {
+  --box-shadow: 5px 5px 10px 7px rgba(101, 175, 10, 0.5);
+  --bg-color: rgb(40, 47, 97);
+}
+
+body {
+  color: white;
+  background-color: rgba(11, 26, 51);
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: red;
+}
+::-webkit-scrollbar-thumb {
+  background: yellow;
+}

@@ -1,0 +1,122 @@
+#experiences {
+  padding: 5rem 0;
+}
+#experiences .ex-title {
+  font-size: 35px;
+  font-weight: 800;
+}
+#experiences .every-box {
+  background-color: var(--bg-color);
+  max-width: 80%;
+  padding: 20px;
+  margin: 25px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid yellow;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  transition: all 0.8s ease-in-out;
+}
+#experiences .every-box:hover {
+  transform: scale(1.05);
+}
+#experiences .every-box .for-title {
+  font-size: 32px;
+}
+
+#experiences .every-box span {
+  color: yellow;
+  font-size: 22px;
+  margin-left: 5px;
+}
+#experiences .every-box h5 {
+  color: yellow;
+  font-size: 20px;
+}
+#experiences .every-box h3 {
+  color: red;
+  font-size: 25px;
+}
+
+@media (max-width: 1100px) {
+  #experiences .every-box .for-title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 992px) {
+  #experiences .every-box {
+    max-width: 90%;
+  }
+  #experiences .every-box .for-title {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  #experiences .every-box {
+    max-width: 100%;
+  }
+  #experiences .ex-title {
+    font-size: 28px;
+    font-weight: 700;
+  }
+  #experiences .every-box .left img {
+    height: 20px;
+    width: 20px;
+  }
+  #experiences .every-box .for-title {
+    font-size: 20px;
+  }
+  #experiences .every-box span {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  #experiences .every-box h5 {
+    font-size: 16px;
+  }
+  #experiences .every-box h3 {
+    color: red;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  #experiences .every-box {
+    padding: 5px;
+  }
+}
+
+@media (max-width: 530px) {
+  #experiences .every-box .for-title {
+    font-size: 15px;
+  }
+  #experiences .every-box span {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  #experiences .every-box h5 {
+    font-size: 13px;
+  }
+  #experiences .every-box h3 {
+    color: red;
+    font-size: 15px;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 400px) {
+  #experiences .every-box .for-title {
+    font-size: 11px;
+  }
+  #experiences .every-box span {
+    font-size: 10px;
+  }
+  #experiences .every-box h5 {
+    font-size: 10px;
+  }
+  #experiences .every-box h3 {
+    color: red;
+    font-size: 13px;
+    font-weight: 700;
+  }
+}
