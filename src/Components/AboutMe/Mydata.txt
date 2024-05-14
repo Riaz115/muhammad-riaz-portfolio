@@ -1,3 +1,6 @@
-my name is riaz ahmad . i live in sahiwal . i am love my pakistan . i am web developer. i am front end
- web developer. i develop website with the using html css javascript . i am react developer . i develop websites with 
- react js frame work.
+
+My name is Muhammad Riaz Ahmad. I work as a React JS Developer and Front End Web Developer. I have extensive experience in website development, with links to my projects available in the Project section of this website. Should you wish to explore these projects, you can navigate to the Project section. Should you require access to their GitHub repositories, simply click on the Code button. Additionally, if you would like to view a demonstration, you can do so by clicking on the Demo button.
+
+I also possess a keen interest in the Python programming language and have already acquired proficiency in its fundamentals. Furthermore, I am well-versed in C programming. To facilitate communication, you can find links to my profiles on various online platforms in the Contact section of this website. Feel free to reach out to me through any platform of your preference by clicking on its respective icon.
+
+These are some highlights of my qualifications. Presently, I am actively seeking employment opportunities in software houses where I can contribute effectively and continue to enhance my skills. Your feedback on my portfolio website would be greatly appreciated. If there are any areas for improvement, please do not hesitate to inform me so that I may address them promptly. I look forward to hearing your thoughts on my portfolio website. Thank you sincerely.
