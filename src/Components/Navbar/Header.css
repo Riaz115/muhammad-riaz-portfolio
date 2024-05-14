@@ -77,6 +77,9 @@
     padding: 1rem;
     color: black;
   }
+  .navbar .nav-link.active {
+  color: blue !important;
+}
 }
 
 @keyframes forSticky {
