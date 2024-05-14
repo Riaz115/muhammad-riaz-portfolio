@@ -13,6 +13,7 @@
   animation: forSticky 0.5s ease-in-out forwards;
   box-shadow: 0 2px 3px rgba(96, 96, 96, 0.1);
   opacity: 0;
+  width:100%;
 
   .stickys .nav-link:hover {
     color: yellow;
@@ -50,6 +51,7 @@
 @media (max-width: 992px) {
   .navbar {
     background-color: White;
+    width: 100%;
   }
   .navbar .navbar-toggler {
     border: none;
@@ -64,6 +66,7 @@
     color: white !important;
   } .navbar .portfolio {
   color: black ! important;
+    font-size: 25px;
   
 }
   .navbar .nav-link:hover {
