@@ -24,6 +24,7 @@ function Home() {
       typeSpeed: 50,
       backSpeed: 50,
       loop: true,
+       cursorChar: "",
     };
     const RiazData = new Typed(MydataRef.current, options);
     return () => {
