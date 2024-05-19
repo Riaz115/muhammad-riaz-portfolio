@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import "./Home.css";
 import { Container, Row, Col } from "react-bootstrap";
 import MyImage from "../../assests/hero/Image.jpg";
-import Mydata from "../AboutMe/Mydata.txt";
+import Mydata from "../AboutMe/mydata.pdf";
 // this typed .js libary import to type text
 import Typed from "typed.js";
 function Home() {
@@ -24,7 +24,7 @@ function Home() {
       typeSpeed: 50,
       backSpeed: 50,
       loop: true,
-       cursorChar: "",
+      cursorChar: "",
     };
     const RiazData = new Typed(MydataRef.current, options);
     return () => {
@@ -54,7 +54,11 @@ function Home() {
               data-aos-duration="1000"
             >
               <h1 className="title" ref={MydataRef}></h1>
-              <a href={Mydata} className="btn btn-outline-warning for-btn">
+              <a
+                href={Mydata}
+                download="mydata.pdf"
+                className="btn btn-outline-warning for-btn"
+              >
                 Download Resume
               </a>
             </Col>

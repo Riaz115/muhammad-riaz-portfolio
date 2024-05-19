@@ -21,43 +21,44 @@ function Contact() {
               data-aos-duration="1000"
             >
               <a
+                href="https://www.linkedin.com/in/riaz-ahmad-690870308"
+                target="/blank"
+                className="icon-item"
+              >
+                <FaLinkedin className="icon" />
+              </a>
+              <a
                 href="https://www.instagram.com/riaz90603?utm_source=qr&igsh=OGU0MmVlOWVjOQ%3D%3D"
-                target="_blank"
+                target="/blank"
                 className="icon-item"
               >
                 <FaInstagram className="icon" />
               </a>
               <a
                 href="https://www.github.com/riaz115"
-                target="_blank"
+                target="/blank"
                 className="icon-item"
               >
                 <FaSquareGithub className="icon" />
               </a>
-              <a
-                href="https://www.linkedin.com/in/riaz-ahmad-690870308"
-                target="_blank"
-                className="icon-item"
-              >
-                <FaLinkedin className="icon" />
-              </a>
+
               <a
                 href="mailto:riaz90603@gmail.com"
-                target="_blank"
+                target="_/blank"
                 className="icon-item"
               >
                 <CgMail className="icon" />
               </a>
               <a
                 href="https://www.facebook.com/profile.php?id=61558080662338&mibextid=kFxxJD"
-                target="_blank"
+                target="_/blank"
                 className="icon-item"
               >
                 <FaFacebookSquare className="icon" />
               </a>
               <a
                 href="https://wa.me/+923280182715"
-                target="_blank"
+                target="/blank"
                 className="icon-item"
               >
                 <FaWhatsappSquare className="icon" />
