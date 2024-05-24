@@ -13,18 +13,20 @@
   animation: forSticky 0.5s ease-in-out forwards;
   box-shadow: 0 2px 3px rgba(96, 96, 96, 0.1);
   opacity: 0;
-  width:100%;
+  width: 100%;
 
   .stickys .nav-link:hover {
     color: yellow;
   }
 }
 .navbar .portfolio {
-  color: white ;
+  color: white;
   font-size: 30px;
   font-weight: 700;
 }
-
+.shows {
+  display: none;
+}
 .navbar .nav-link {
   color: white;
   font-size: 20px;
@@ -64,11 +66,11 @@
     font-size: 20px;
     font-weight: 800;
     color: white !important;
-  } .navbar .portfolio {
-  color: black ! important;
+  }
+  .navbar .portfolio {
+    color: black !important;
     font-size: 25px;
-  
-}
+  }
   .navbar .nav-link:hover {
     color: red;
     border-bottom: none;
@@ -78,8 +80,8 @@
     color: black;
   }
   .navbar .nav-link.active {
-  color: blue !important;
-}
+    color: blue !important;
+  }
 }
 
 @keyframes forSticky {

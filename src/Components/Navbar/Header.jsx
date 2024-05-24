@@ -9,6 +9,19 @@ function Header() {
     CheckScroll > 50 ? setSticky(true) : setSticky(false);
   };
   window.addEventListener("scroll", HandleScroll);
+
+  // this is for close the navbar
+  const [forLink, setForLink] = useState("");
+
+  // this is function for every navlink
+  const forEveryNavLink = () => {
+    setForLink(false);
+  };
+
+  // this is function for the toggler button click
+  const HandleTogglebtnClick = () => {
+    setForLink(true);
+  };
   return (
     <>
       <Navbar
@@ -22,22 +35,46 @@ function Header() {
           <Navbar.Toggle
             aria-controls="responsive-navbar-nav"
             className="toggler"
+            onClick={HandleTogglebtnClick}
           />
-          <Navbar.Collapse id="responsive-navbar-nav">
+          <Navbar.Collapse
+            id="responsive-navbar-nav"
+            className={forLink ? "show" : "shows"}
+          >
             <Nav className="ms-auto">
-              <Nav.Link href="#home" className="navitem px-3">
+              <Nav.Link
+                href="#home"
+                className="navitem px-3"
+                onClick={forEveryNavLink}
+              >
                 Home
               </Nav.Link>
-              <Nav.Link href="#experiences" className="navitem px-3">
+              <Nav.Link
+                href="#experiences"
+                className="navitem px-3"
+                onClick={forEveryNavLink}
+              >
                 Experiences
               </Nav.Link>
-              <Nav.Link href="#skills" className="navitem px-3">
+              <Nav.Link
+                href="#skills"
+                className="navitem px-3"
+                onClick={forEveryNavLink}
+              >
                 Skills
               </Nav.Link>
-              <Nav.Link href="#projects" className="navitem px-3">
+              <Nav.Link
+                href="#projects"
+                className="navitem px-3"
+                onClick={forEveryNavLink}
+              >
                 Projects
               </Nav.Link>
-              <Nav.Link href="#contact" className="navitem px-3">
+              <Nav.Link
+                href="#contact"
+                className="navitem px-3"
+                onClick={forEveryNavLink}
+              >
                 Contact
               </Nav.Link>
             </Nav>
