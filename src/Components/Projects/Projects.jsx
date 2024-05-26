@@ -84,12 +84,14 @@ function Projects() {
                     <div className="for-buttons">
                       <a
                         href={data.demo}
+                        target="/blank"
                         className="mx-2 mb-2 btn btn-primary for-btn"
                       >
                         Demo
                       </a>
                       <a
                         href={data.source}
+                          target="/blank"
                         className="mx-2 mb-2 btn btn-warning for-btn"
                       >
                         Code
