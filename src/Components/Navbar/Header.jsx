@@ -15,12 +15,14 @@ function Header() {
 
   // this is function for every navlink
   const forEveryNavLink = () => {
-    setForLink(false);
+    setForLink(true);
   };
 
   // this is function for the toggler button click
   const HandleTogglebtnClick = () => {
-    setForLink(true);
+    if(forLink){
+      
+    setForLink(false);}
   };
   return (
     <>
@@ -39,7 +41,7 @@ function Header() {
           />
           <Navbar.Collapse
             id="responsive-navbar-nav"
-            className={forLink ? "show" : "shows"}
+            className={forLink ? "shows" : ""}
           >
             <Nav className="ms-auto">
               <Nav.Link
