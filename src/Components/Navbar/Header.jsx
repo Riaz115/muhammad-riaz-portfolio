@@ -3,12 +3,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import "./Header.css";
 
 function Header() {
-  const [sticky, setSticky] = useState(false);
-  const HandleScroll = () => {
-    const CheckScroll = document?.documentElement?.scrollTop;
-    CheckScroll > 50 ? setSticky(true) : setSticky(false);
-  };
-  window.addEventListener("scroll", HandleScroll);
+
 
   // this is for close the navbar
   const [forLink, setForLink] = useState("");
@@ -28,7 +23,6 @@ function Header() {
     <>
       <Navbar
         expand="lg"
-        className={`${sticky === true ? "stickys" : ""}`}
         data-aos="fade-down"
         data-aos-duration="1000"
       >
