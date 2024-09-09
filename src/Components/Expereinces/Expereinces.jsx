@@ -66,8 +66,7 @@ function Expereinces() {
                   <div
                     key={data.id}
                     className="every-box"
-                    data-aos="zoom-in"
-                    data-aos-duration="1000"
+            
                   >
                     <div className="left ">
                       <img
